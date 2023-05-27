@@ -7,6 +7,7 @@ import Home from './Components/Home/Home';
 import Profile from './Components/Profile/Profile';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import CreatePost from './Components/CreatePost/CreatePost';
 
 
 function App() {
@@ -20,8 +21,9 @@ function App() {
        <Route path='/signup' element={<SignUp/>} />
        <Route path='/signin' element={<SignIn/>} />
        <Route path='/profile' element={<Profile/>} />
+       <Route path='/createpost' element={<CreatePost/>} />
      </Routes>
-     <ToastContainer/>
+     <ToastContainer theme='dark'/>
     </div>
     </BrowserRouter>
   );
