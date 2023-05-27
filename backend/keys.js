@@ -1,4 +1,5 @@
-const mongoUrl = 'mongodb://localhost:27017/Instagram'
-
-
-module.exports= mongoUrl;
+module.exports = {
+     mongoUrl: "mongodb://localhost:27017/Instagram",
+    Jwt_secret:"secret"
+    
+};
