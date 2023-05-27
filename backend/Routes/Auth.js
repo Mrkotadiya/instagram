@@ -78,8 +78,5 @@ router.post("/signin", (req, res) => {
   });
 });
 
-router.get('/createpost',requireLogin,(req,res)=>{
-  console.log("CreatePOst Auth Hello");
 
-})
 module.exports = router;
